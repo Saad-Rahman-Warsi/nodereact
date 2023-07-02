@@ -10,7 +10,7 @@ function PageHeader() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="http://localhost:3000">
+        <Navbar.Brand href="https://saad-rahman-warsi.github.io/nodereact/">
             <img alt="" src={logo} width="60"  className="App-logo"  />{' '}
             <b>SciPlanet</b>
         </Navbar.Brand>
@@ -18,8 +18,8 @@ function PageHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="http://localhost:3000/AboutUs">About Us</Nav.Link>
-            <Nav.Link href="http://localhost:3000/Facilities">Facilities</Nav.Link>
+            <Nav.Link href="https://saad-rahman-warsi.github.io/nodereact/AboutUs">About Us</Nav.Link>
+            <Nav.Link href="https://saad-rahman-warsi.github.io/nodereact/Facilities">Facilities</Nav.Link>
             <Nav.Link href="#link">Services</Nav.Link>
 
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
